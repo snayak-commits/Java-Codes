@@ -13,7 +13,7 @@ class Swap_largest_and_smallest
         n = scan.nextInt();
         arr = new int[n];
         System.out.print("Enter the elements - ");
-        for (int i = 0; i < n; i++) 
+        for(int i = 0; i < n; i++) 
         {
             arr[i] = scan.nextInt();
         }
@@ -23,13 +23,13 @@ class Swap_largest_and_smallest
     public void swap()
     {
         int max = 0, min = 0;
-        for (int i = 0; i < n; i++) 
+        for(int i = 0; i < n; i++) 
         {
-            if (arr[i] > arr[max]) 
+            if(arr[i] > arr[max]) 
             {
                 max = i;
             }
-            if (arr[i] < arr[min]) 
+            if(arr[i] < arr[min]) 
             {
                 min = i;
             }
@@ -42,7 +42,7 @@ class Swap_largest_and_smallest
     public void display()
     {
         System.out.print("Array after Swapping - ");
-        for (int i = 0; i < n; i++) 
+        for(int i = 0; i < n; i++) 
         {
             System.out.print(arr[i] + " ");
         }
